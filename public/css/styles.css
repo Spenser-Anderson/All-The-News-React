@@ -64,6 +64,9 @@ nav {
   width: 100%;
   transition: all 0.5s;
   z-index: 1;
+  /* This is the shit I do like. */
+  position: sticky;   
+  top:0;
 }
 
 nav ul {
@@ -102,10 +105,8 @@ li.logo img {
   width: 2.5rem;
 }
 li.logo {
-  max-width: 0;
-  overflow: hidden;
-  background: white;
-  transition: all 0.5s;
+  max-width: 36px;
+  
 }
 .fixed-nav li.logo {
   max-width: 500px;
