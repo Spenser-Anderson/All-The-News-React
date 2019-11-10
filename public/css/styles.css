@@ -82,12 +82,23 @@ nav li {
   text-align: center;
 }
 
+nav li.active {
+  background-color: #00aeef;
+}
+
 nav a {
   text-decoration: none;
   display: inline-block;
   color: white;
   text-transform: capitalize;
   font-weight: 700;
+  min-height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #00aeef;
 }
 
 img {
@@ -131,4 +142,20 @@ li.logo {
   padding-top: 4rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #007eb6;
+}
+.loading {
+  position: absolute; 
+  display: inline;
+  justify-content: center;
+  align-items: center; 
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.loading h3 {
+  width: 40px;
+  height: 40px;
+  background: url('../img/spinner.svg') 50% 50% no-repeat;
 }

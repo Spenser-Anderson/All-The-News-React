@@ -7,7 +7,7 @@ const NavItem = props => {
     }
     
   return (
-    <li>
+    <li className={props.activeLink === props.navItem ? 'active' : ''}>
       <a href={`#${props.navItem}`} onClick={sendSection}>
       {""}
       {props.navItem}</a>

@@ -18,6 +18,7 @@ const Nav = props => {
             key={index}
             navItem={navItem}
             getStories={props.getStories}
+            activeLink={props.activeLink}
           />
         ))}
       </ul>
