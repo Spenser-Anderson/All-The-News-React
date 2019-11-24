@@ -151,7 +151,7 @@ li.logo {
   left: 50%;
   margin-left: -50px;
   top: 50%;
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 .loading h3 {
